@@ -1,0 +1,35 @@
+[ 
+	{
+		"keys": ["alt+w"],
+		"command": "move",
+		"args": {"by": "lines", "forward": false, "amount": 1.0}
+	},
+	{
+		"keys": ["alt+a"],
+		"command": "move",
+		"args": {"by": "characters", "forward": false, "amount": 1.0}
+	},
+	{
+		"keys": ["alt+s"],
+		"command": "move",
+		"args": {"by": "lines", "forward": true, "amount": 1.0}
+	},
+	{
+		"keys": ["alt+q"],
+		"command": "move",
+		"args": {"by": "characters", "forward": false, "amount": 10.0}
+	},
+	{
+		"keys": ["alt+e"],
+		"command": "move",
+		"args": {"by": "characters", "forward": true, "amount": 10.0}
+	},
+	{
+		"keys": ["alt+d"],
+		"command": "move",
+		"args": {"by": "characters", "forward": true, "amount": 1.0}
+	},
+
+	{"keys": ["ctrl+i"], "command": "reindent", "args": {"single_line": false}
+	}
+]
