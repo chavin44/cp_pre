@@ -1,4 +1,3 @@
-//this is my header file I use for cp
 #include <bits/stdc++.h>
 #include <cmath>
 #include <algorithm>
@@ -33,14 +32,13 @@ ull mypow(ull a, ull b)         { ull ans = 1; a%=MOD; while(b){ if (b&1) ans = 
 bool isPrime(ll n)              { if(n <= 1) return false; for(ll i = 2; i*i <= n; i++) if(n % i == 0) return false; return true; }
  
 using namespace std;
-void solve(int testcases){
-  //do 
-
+void solve(int TESTCASE) {
 }
+ 
 int main() {
-    int tc;
-    cin >> tc;
-    while (tc--) {
-      solve(tc);
+    int TC; cin >> TC;
+    while (TC--) {
+        solve(TC);
     }
+    return 0;
 }
