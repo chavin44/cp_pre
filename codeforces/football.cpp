@@ -33,9 +33,6 @@ bool isPrime(ll n)              { if(n <= 1) return false; for(ll i = 2; i*i <= 
 
 using namespace std;
 
-#include <bits/stdc++.h>
-using namespace std;
-
 int main() {
     string str;
     cin >> str;
