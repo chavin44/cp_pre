@@ -1,4 +1,5 @@
 /*
+PS. Me and my friend nithin worked on this together.
  tbh don't rly know why this is not working so might work a new one, i think i have the right implementation
  Large test case not working for some reason
 -- Maximum Sum --
