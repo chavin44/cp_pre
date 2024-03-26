@@ -38,6 +38,8 @@ void solve() {
     cin.ignore();
     int n;
     cin >> n;
+    //the map contains the key of the parent node and value of child node
+    //
     unordered_map<int,vector<int>> ls;
     for (int i = 0; i < n; i++) {
         int a,b;
