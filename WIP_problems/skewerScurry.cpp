@@ -1,3 +1,5 @@
+//problem -  https://www.hackerrank.com/contests/utd-bob-spring-2024-novice/challenges/skewer-scurry-easy/problem
+//I am a not smart
 #include <bits/stdc++.h>
 #include <cmath>
 #include <algorithm>
